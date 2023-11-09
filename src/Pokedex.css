@@ -1,0 +1,18 @@
+.Pokedex-cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.Pokedex {
+    text-align: center;
+}
+
+.Pokecard img:hover {
+    transform: scale(1.25);
+    opacity: .5;
+}
+
+.Pokecard img {
+    transition: all ease 500ms;
+}
